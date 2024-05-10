@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Estudio Juridico</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="nav-logo" src="../img/logo simple.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./profesionales.html">Profesionales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./practicas.html">Areas de Practica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="background-form">
+                <form class="form-container" action="">
+                    <h2 class="contacto">Contacto</h2>
+                    <div class="form-item">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form-item">
+                        <label for="">Apellido</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-item">
+                        <label for="">Email</label>
+                        <input type="email">
+                    </div>
+
+                    <h3>Genero</h3>
+                    <div>
+                        <label for="">Masculino</label>
+                        <input type="radio">
+                        <label for="">Femenino</label>
+                        <input type="radio">
+                        <label for="">Otro</label>
+                        <input type="radio">
+                    </div>
+
+
+                    <div>
+                        <select name="" id="">Provincia
+                            <option value="">Buenos Aires</option>
+                            <option value="">Córdoba</option>
+                            <option value="">Santa Fé</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+
+                </form>
+            </div>
+        </section>    
+        <section class="mapa">
+            <div>
+                <h2>Buscanos en el Mapa</h2>
+                <iframe id="map-canvas" class="map_part" width="1000"  height="300"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Arenales 1586 CABA&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com">
+                </iframe>
+                    
+            </div>
+        </section>    
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="footer">
+        <div class="contenido-footer">
+            <h2>Estudio Juridico Armendi & Asosciados</h2>
+            <div>
+                <h3>Contacto</h3>
+                <ul>
+                    <li>Direccion: Arenales 1586 CABA </li>
+                    <li>Telefono: 1156911111</li>
+                    <li>Mail: estudioarmendi&asociados@gmail.com</li>
+                    <li>Horario: Lunes a viernes de 09:00 a 17hs</li>
+                </ul>
+            </div>
+            <div class="icons" >
+                <a href=""><img src="../img/instagram.png" alt=""></a>
+                <a href=""><img src="../img/facebook.png" alt=""></a>
+                <a href=""><img src="../img/whatsapp.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
